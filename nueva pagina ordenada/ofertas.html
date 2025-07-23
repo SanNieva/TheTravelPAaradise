@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Encabezado y Menú</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth; /* desplazamiento suave */
+        }
+
+        /* Encabezado fijo */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            z-index: 1000;
+        }
+
+        /* Menú */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Espacio para que el contenido no quede tapado */
+        main {
+            padding-top: 80px;
+        }
+
+        section {
+            min-height: 100vh; /* cada sección ocupa la altura de la pantalla */
+            padding: 20px;
+        }
+
+        #inicio { background: #f4f4f4; }
+        #servicios { background: #d9f1ff; }
+        #contacto { background: #ffe6b3; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h1>Bienvenido</h1>
+            <p>Esta es la sección de inicio. El encabezado se mantiene fijo mientras te desplazas.</p>
+        </section>
+
+        <section id="servicios">
+            <h1>Servicios</h1>
+            <p>Detalles sobre los servicios que ofrecemos.</p>
+        </section>
+
+        <section id="contacto">
+            <h1>Contacto</h1>
+            <p>Formulario e información para contactarnos.</p>
+        </section>
+    </main>
+</body>
+</html>

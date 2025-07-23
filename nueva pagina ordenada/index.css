@@ -1,0 +1,68 @@
+
+/* Estilo para imágenes */
+img {
+    max-width: 100%;
+    border: 3px solid #5c73f8;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+
+    /* Estilo para encabezados de tabla */
+th {
+    background-color: #aac5ff;
+    color: rgb(0, 0, 0);
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #fffdfd;
+    font-weight: 600; 
+    }
+
+        form {
+    background-color: #d6e9ff;
+      background-color:#d6e9ff;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    /* Borde de foto */
+.borde-foto {
+  border: 4px solid #f30000;  
+  padding: 5px;            
+  border-radius: 8px;        
+  width: 300px;      
+  display: block;
+  margin: 0 auto; 
+}
+
+/* Box Model global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Unidades relativas base */
+html {
+  font-size: 16px; /* 1rem = 16px */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #070563;
+}
+
+/* Estilo de la sección */
+.seccion-responsive {
+  border: 2px solid #0077cc;
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 10px;
+  background-color: white;
+  max-width: 100%;
+  transition: all 0.3s ease-in-out;
+}
